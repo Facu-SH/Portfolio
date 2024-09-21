@@ -5,40 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio - Facundo Shlamovitz</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- Menú de navegación -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="portfolio.html">Portafolio</a></li>
-            <li><a href="resume.html">Currículum</a></li>
-            <li><a href="contact.html">Contacto</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="resume.html">Currículum</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
-        <!-- Sección de Inicio -->
         <section>
             <h1>Bienvenido a mi Portfolio</h1>
             <p>Soy Facundo Shlamovitz, estudiante y programador. Me considero una persona
                 responsable, ordenada, proactiva, y siempre busco tomar la iniciativa. Actualmente me encuentro trabajando como desarrollador BackEnd.</p>
-            <img src="img/facush.jpg" width="195px" height="260px" alt="Foto Personal">
         </section>
 
-        <!-- Sección Sobre Mí -->
-        <section>
-            <h2>Sobre Mí</h2>
-            <p>Soy estudiante de Licenciatura en Desarrollo de Videojuegos en la Universidad Argentina de la Empresa.
-                Durante mi formación, he desarrollado habilidades en programación y software, con un enfoque en la
-                creación de juegos y aplicaciones web.</p>
-            <p>Además de mis estudios, tengo experiencia como desarrollador en DIGIP, donde trabajé en la creación de
-                páginas web, desarrollo de funcionalidades para aplicaciones web, y microservicios.</p>
-            <p>Mi objetivo profesional es aplicar mis conocimientos en un entorno laboral que me permita seguir
-                aprendiendo y contribuyendo al desarrollo de soluciones tecnológicas innovadoras.</p>
+        <section class="about">
+            <div>
+                <h2>Sobre Mí</h2>
+                <p>Soy estudiante de Licenciatura en Desarrollo de Videojuegos en la Universidad Argentina de la Empresa.
+                    Durante mi formación, he desarrollado habilidades en programación y software, con un enfoque en la
+                    creación de juegos y aplicaciones web.</p>
+                <p>Además de mis estudios, tengo experiencia como desarrollador en DIGIP, donde trabajé en la creación de
+                    páginas web, desarrollo de funcionalidades para aplicaciones web, y microservicios.</p>
+                <p>Mi objetivo profesional es aplicar mis conocimientos en un entorno laboral que me permita seguir
+                    aprendiendo y contribuyendo al desarrollo de soluciones tecnológicas innovadoras.</p>
+            </div>
+            <img src="img/facush.jpg" alt="Foto Personal">
         </section>
     </main>
+
+    <footer>
+        <p>&copy; 2024 Facundo Shlamovitz. Todos los derechos reservados.</p>
+    </footer>
 </body>
 
 </html>
